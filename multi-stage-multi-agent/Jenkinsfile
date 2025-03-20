@@ -16,9 +16,10 @@ pipeline {
       steps {
         sh 'node --version'
       }
+    }
+    stage('Java-Version') {
       steps {
         sh 'java --version'
-      }
     }
   }
 }
