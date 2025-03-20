@@ -17,5 +17,8 @@ pipeline {
         sh 'node --version'
       }
     }
+      steps {
+        sh 'java --version'
+      }
   }
 }
