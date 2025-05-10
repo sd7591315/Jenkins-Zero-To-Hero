@@ -18,7 +18,7 @@ pipeline {
       steps {
         sh 'echo passed'
         // Uncomment when ready:
-        // git branch: 'main', url: 'https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero.git'
+        git branch: 'main', url: 'https://github.com/sd7591315/Jenkins-Zero-To-Hero.git'
       }
     }
 
